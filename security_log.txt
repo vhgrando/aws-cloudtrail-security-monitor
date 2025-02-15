@@ -1,0 +1,546 @@
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: CreateAccessKey
+Date: 2025-02-15T22:01:46Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:02Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:58Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: CreateAccessKey
+Date: 2025-02-15T22:01:46Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:02Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:58Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: CreateAccessKey
+Date: 2025-02-15T22:01:46Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:02Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:58Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: CreateAccessKey
+Date: 2025-02-15T22:01:46Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:02Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:01Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:01:00Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
+
+🚨 **ALERT: Suspicious Activity Detected!** 🚨
+User: arn:aws:iam::147997145110:root
+Action: ListPolicies
+Date: 2025-02-15T22:00:59Z
+----------------------------------------
