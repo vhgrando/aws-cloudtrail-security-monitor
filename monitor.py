@@ -1,38 +1,103 @@
 import boto3
 import json
+import requests
 import smtplib
 from email.message import EmailMessage
 
 # AWS CloudTrail client
 client = boto3.client('cloudtrail', region_name='us-east-1')
 
-# Suspicious actions to watch for
-suspicious_actions = [
-    "CreateUser", "DeleteUser", "AttachUserPolicy", "DetachUserPolicy",
-    "CreateAccessKey", "DeleteAccessKey", "UpdateAssumeRolePolicy",
-    "PutRolePolicy", "CreatePolicy", "DeletePolicy", "ListPolicies"
+# Define event categories
+CRITICAL_EVENTS = [
+    "ConsoleLogin", "CreateUser", "DeleteUser", "AttachUserPolicy",
+    "PutRolePolicy", "CreateAccessKey", "CreateRole"
 ]
+
+MEDIUM_EVENTS = [
+    "ChangePassword", "PutGroupPolicy", "DeletePolicy"
+]
+
+LOW_EVENTS = [
+    "ListUsers", "ListPolicies"
+]
+
+# Webhook URLs (Replace with your actual Webhooks)
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1341137468656717874/QcansKijcqgVs7ThKry9wItKw7Z1L_DBpdrd2UOkkLOps_MtmjsmhjZe7OouYOgJNOe-"
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+
+# Email configuration (Replace with your details)
+SENDER_EMAIL = "victorhugogrando@gmail.com"
+SENDER_PASSWORD = "knqj ilgb vjwj wybh"  # Use an App Password, not your real password
+RECEIVER_EMAIL = "vhgrandobusiness@gmail.com"
+
+# Function to send a message to Discord
+def send_discord_alert(message):
+    data = {"content": message}
+    response = requests.post(DISCORD_WEBHOOK_URL, json=data)
+    if response.status_code == 204:
+        print("\n✅ Discord alert sent successfully!")
+    else:
+        print(f"\n⚠️ Failed to send Discord alert: {response.text}")
+
+# Function to send a message to Slack
+def send_slack_alert(message):
+    data = {"text": message}
+    response = requests.post(SLACK_WEBHOOK_URL, json=data)
+    if response.status_code == 200:
+        print("\n✅ Slack alert sent successfully!")
+    else:
+        print(f"\n⚠️ Failed to send Slack alert: {response.text}")
+
+# Function to send an email alert
+def send_email_alert(alert_message):
+    subject = "🚨 AWS Security Alert - Suspicious Activity Detected!"
+
+    msg = EmailMessage()
+    msg.set_content(alert_message)
+    msg["Subject"] = subject
+    msg["From"] = SENDER_EMAIL
+    msg["To"] = RECEIVER_EMAIL
+
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(SENDER_EMAIL, SENDER_PASSWORD)
+            server.send_message(msg)
+            print("\n📩 Security alert sent via email!")
+    except Exception as e:
+        print(f"\n⚠️ Failed to send email: {e}")
 
 # Fetch recent CloudTrail events
 response = client.lookup_events(MaxResults=50)
 
-# Track detected events
 suspicious_events = []
 
-# Process logs and filter only suspicious actions
+# Process logs and classify events
 for event in response['Events']:
     event_data = json.loads(event['CloudTrailEvent'])
     event_name = event_data.get('eventName', 'Unknown')
+    user_identity = event_data.get('userIdentity', {}).get('arn', 'Unknown')
+    event_time = event_data.get('eventTime')
 
-    if event_name in suspicious_actions:
-        log_entry = f"\n🚨 **ALERT: Suspicious Activity Detected!** 🚨\n"
-        log_entry += f"User: {event_data.get('userIdentity', {}).get('arn', 'Unknown')}\n"
-        log_entry += f"Action: {event_name}\n"
-        log_entry += f"Date: {event_data.get('eventTime')}\n"
-        log_entry += "-" * 40
+    # Define risk level
+    if event_name in CRITICAL_EVENTS:
+        risk_level = "🚨 CRITICAL"
+    elif event_name in MEDIUM_EVENTS:
+        risk_level = "⚠️ MEDIUM"
+    elif event_name in LOW_EVENTS:
+        risk_level = "🔎 LOW"
+    else:
+        risk_level = None  # Ignore irrelevant events
 
+    # If the event is relevant, log it and send alerts
+    if risk_level:
+        log_entry = f"{risk_level} | User: {user_identity} | Action: {event_name} | Date: {event_time}"
         print(log_entry)
         suspicious_events.append(log_entry)
+
+        # Send alerts to Slack, Discord, and Email
+        send_slack_alert(log_entry)
+        send_discord_alert(log_entry)
+        send_email_alert(log_entry)
 
 # Save logs to a file
 with open("security_log.txt", "a") as log_file:
@@ -41,36 +106,4 @@ with open("security_log.txt", "a") as log_file:
     else:
         log_file.write("\n✅ No suspicious activity detected.\n")
 
-
-# Send Email Alert if suspicious events found
-def send_email_alert(alert_message):
-    sender_email = "victorhugogrando@gmail.com"  # Replace with your email
-    sender_password = "knqj ilgb vjwj wybh"  # Replace with your Gmail App Password
-    receiver_email = "vhgrandobusiness@gmail.com"  # Replace with the recipient's email
-
-    subject = "🚨 AWS Security Alert - Suspicious Activity Detected!"
-
-    msg = EmailMessage()
-    msg.set_content(alert_message)
-    msg["Subject"] = subject
-    msg["From"] = sender_email
-    msg["To"] = receiver_email
-
-    try:
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-            server.login(sender_email, sender_password)
-            server.send_message(msg)
-            print("\n📩 Email Alert Sent Successfully!\n")
-    except smtplib.SMTPAuthenticationError:
-        print("\n❌ Authentication Error: Check your email and App Password.")
-    except smtplib.SMTPException as smtp_error:
-        print(f"\n⚠️ SMTP Error: {smtp_error}")
-    except Exception as e:
-        print(f"\n⚠️ Failed to send email: {e}")
-
-
-# Send email if suspicious events exist
-if suspicious_events:
-    send_email_alert("\n".join(suspicious_events))
-else:
-    print("\n✅ No security issues detected. Your AWS environment is safe!\n")
+print("\n✅ Script execution completed!")
