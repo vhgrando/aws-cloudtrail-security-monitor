@@ -23,7 +23,7 @@ LOW_EVENTS = [
 
 # Webhook URLs (Replace with your actual Webhooks)
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1341137468656717874/QcansKijcqgVs7ThKry9wItKw7Z1L_DBpdrd2UOkkLOps_MtmjsmhjZe7OouYOgJNOe-"
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
 
 # Email configuration (Replace with your details)
 SENDER_EMAIL = "victorhugogrando@gmail.com"
