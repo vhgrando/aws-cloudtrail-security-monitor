@@ -48,4 +48,32 @@ This project automates **AWS security monitoring**, detects **suspicious activit
 
 ---
 
+✅ The dashboard will be available at: http://localhost:8501
 
+🔔 Security Alerts & Notifications
+
+* 🟢 Discord Alerts: Configured via Webhooks
+ 
+* 🔵 Slack Alerts: Uses Slack Incoming Webhooks
+  
+* 📩 Email Alerts: Sent via SMTP (Gmail, Outlook, etc.)
+  
+🌍 Deployment on AWS
+
+1️⃣ Deploying the Web Dashboard to AWS EC2
+
+* The dashboard is hosted on AWS EC2 using a t2.micro instance
+  
+* To keep Streamlit running, we use screen for background execution
+
+  
+2️⃣ Exposing API Gateway
+
+* The security logs API is exposed via AWS API Gateway
+  
+* Logs are fetched from DynamoDB using AWS Lambda
+
+
+🚀 Maintained by [Victor Hugo Grando](https://www.linkedin.com/in/vhgrando/)
+
+Follow me for more AWS & Cybersecurity projects! 🚀
