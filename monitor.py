@@ -2,33 +2,30 @@ import boto3
 import json
 import requests
 import smtplib
+import uuid
+from datetime import datetime
 from email.message import EmailMessage
 
 # AWS CloudTrail client
 client = boto3.client('cloudtrail', region_name='us-east-1')
 
+# AWS DynamoDB client
+dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+table = dynamodb.Table('CloudTrailSecurityLogs')  # Replace with your actual DynamoDB table name
+
 # Define event categories
-CRITICAL_EVENTS = [
-    "ConsoleLogin", "CreateUser", "DeleteUser", "AttachUserPolicy",
-    "PutRolePolicy", "CreateAccessKey", "CreateRole"
-]
-
-MEDIUM_EVENTS = [
-    "ChangePassword", "PutGroupPolicy", "DeletePolicy"
-]
-
-LOW_EVENTS = [
-    "ListUsers", "ListPolicies"
-]
+CRITICAL_EVENTS = ["ConsoleLogin", "CreateUser", "DeleteUser", "AttachUserPolicy", "PutRolePolicy", "CreateAccessKey", "CreateRole"]
+MEDIUM_EVENTS = ["ChangePassword", "PutGroupPolicy", "DeletePolicy"]
+LOW_EVENTS = ["ListUsers", "ListPolicies"]
 
 # Webhook URLs (Replace with your actual Webhooks)
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1341137468656717874/QcansKijcqgVs7ThKry9wItKw7Z1L_DBpdrd2UOkkLOps_MtmjsmhjZe7OouYOgJNOe-"
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/YOUR_NEW_SLACK_WEBHOOK"
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/YOUR_NEW_DISCORD_WEBHOOK"
 
 # Email configuration (Replace with your details)
-SENDER_EMAIL = "victorhugogrando@gmail.com"
-SENDER_PASSWORD = "knqj ilgb vjwj wybh"  # Use an App Password, not your real password
-RECEIVER_EMAIL = "vhgrandobusiness@gmail.com"
+SENDER_EMAIL = "your-email@gmail.com"
+SENDER_PASSWORD = "your-app-password"  # Use an App Password, not your real password
+RECEIVER_EMAIL = "receiver-email@gmail.com"
 
 # Function to send a message to Discord
 def send_discord_alert(message):
@@ -51,7 +48,6 @@ def send_slack_alert(message):
 # Function to send an email alert
 def send_email_alert(alert_message):
     subject = "🚨 AWS Security Alert - Suspicious Activity Detected!"
-
     msg = EmailMessage()
     msg.set_content(alert_message)
     msg["Subject"] = subject
@@ -94,12 +90,27 @@ for event in response['Events']:
         print(log_entry)
         suspicious_events.append(log_entry)
 
+        # Generate unique Event ID
+        event_id = str(uuid.uuid4())
+
+        # Save the event in DynamoDB
+        table.put_item(
+            Item={
+                "EventID": event_id,
+                "Timestamp": event_time,
+                "RiskLevel": risk_level,
+                "User": user_identity,
+                "Action": event_name
+            }
+        )
+        print("\n✅ Log stored in AWS DynamoDB")
+
         # Send alerts to Slack, Discord, and Email
         send_slack_alert(log_entry)
         send_discord_alert(log_entry)
         send_email_alert(log_entry)
 
-# Save logs to a file
+# Save logs to a file as well
 with open("security_log.txt", "a") as log_file:
     if suspicious_events:
         log_file.write("\n".join(suspicious_events) + "\n")

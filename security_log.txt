@@ -621,3 +621,7 @@ Date: 2025-02-15T22:00:59Z
 🚨 CRITICAL | User: arn:aws:iam::147997145110:root | Action: CreateAccessKey | Date: 2025-02-15T22:01:46Z
 🚨 CRITICAL | User: arn:aws:iam::147997145110:root | Action: ConsoleLogin | Date: 2025-02-16T15:21:40Z
 🚨 CRITICAL | User: arn:aws:iam::147997145110:root | Action: CreateAccessKey | Date: 2025-02-15T22:01:46Z
+🚨 CRITICAL | User: arn:aws:iam::147997145110:root | Action: ConsoleLogin | Date: 2025-02-18T01:12:21Z
+🚨 CRITICAL | User: arn:aws:iam::147997145110:root | Action: ConsoleLogin | Date: 2025-02-16T15:21:40Z
+🚨 CRITICAL | User: arn:aws:iam::147997145110:root | Action: ConsoleLogin | Date: 2025-02-18T01:12:21Z
+🚨 CRITICAL | User: arn:aws:iam::147997145110:root | Action: ConsoleLogin | Date: 2025-02-16T15:21:40Z
